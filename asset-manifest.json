@@ -1,0 +1,493 @@
+{
+  "assembled_on": "2026-11-05",
+  "source_paths": "Relative source labels only; original local paths omitted",
+  "assets": [
+    {
+      "path": "images/L01-access-port-2026-10-23-204205-PC-A-peer-failure-router-success.png",
+      "source": "CCNA_2027/evidence/L01/2026-10-23-204205-PC-A-peer-failure-router-success.png",
+      "kind": "learner device screenshot",
+      "bytes": 250518,
+      "sha256": "ca6cea11190f2443be80b5a8d40c42a61408aa5377608c3cba9b1603c0589d46"
+    },
+    {
+      "path": "images/L01-access-port-2026-10-23-211355-PC-A-PC-B-recovered-connectivity.png",
+      "source": "CCNA_2027/evidence/L01/2026-10-23-211355-PC-A-PC-B-recovered-connectivity.png",
+      "kind": "learner device screenshot",
+      "bytes": 739328,
+      "sha256": "c0dab27d77de1dc2b1f092b58fef927f7801262bc9fde1db79793390714c5a79"
+    },
+    {
+      "path": "images/L01-access-port-2026-10-23-R1-save-user-exec-error.png",
+      "source": "CCNA_2027/evidence/L01/2026-10-23-R1-save-user-exec-error.png",
+      "kind": "learner device screenshot",
+      "bytes": 86136,
+      "sha256": "ce92183201b8233951041c80c4df39078c0afcf86ddc7f18ac88ba03a70ba383"
+    },
+    {
+      "path": "packet-tracer/L01-baseline.pkt",
+      "source": "CCNA_2027/evidence/L01/L01-baseline.pkt",
+      "kind": "learner saved Packet Tracer project",
+      "bytes": 51752,
+      "sha256": "4904d437b5b3a7fdc51bb6ed150af5c9f146fdd2a377dc6f702f76dcb399228d"
+    },
+    {
+      "path": "packet-tracer/L01-disabled-port.pkt",
+      "source": "CCNA_2027/evidence/L01/L01-disabled-port.pkt",
+      "kind": "learner saved Packet Tracer project",
+      "bytes": 52009,
+      "sha256": "d09148fafea66ee26d5b51e0a4a4ae54843fa1f3b6a277e0d23c4d2c85d019da"
+    },
+    {
+      "path": "packet-tracer/L01-recovered.pkt",
+      "source": "CCNA_2027/evidence/L01/L01-recovered.pkt",
+      "kind": "learner saved Packet Tracer project",
+      "bytes": 52069,
+      "sha256": "a851c29834f8019a0e388b81bb43e67325f5517c1634d3060e2dfbb2bcc20bea"
+    },
+    {
+      "path": "images/L02-switch-uplink-2026-10-25-202643-topology.png",
+      "source": "CCNA_2027/evidence/L02/2026-10-25-202643-topology.png",
+      "kind": "learner device screenshot",
+      "bytes": 55179,
+      "sha256": "a4eb431ef9e4c724b748238c14cfe12ff5107a92d075fab494977b8ff324c3c8"
+    },
+    {
+      "path": "images/L02-switch-uplink-2026-10-25-205140-S1-Fa024-down.png",
+      "source": "CCNA_2027/evidence/L02/2026-10-25-205140-S1-Fa024-down.png",
+      "kind": "learner device screenshot",
+      "bytes": 292948,
+      "sha256": "138a7d4ef8405b9d5b748c20975695937254d9bd979684341275428f996b645e"
+    },
+    {
+      "path": "images/L02-switch-uplink-2026-10-25-210123-PC-A-recovery-pings.png",
+      "source": "CCNA_2027/evidence/L02/2026-10-25-210123-PC-A-recovery-pings.png",
+      "kind": "learner device screenshot",
+      "bytes": 277355,
+      "sha256": "6845d97505c94b30c32e6f9d502b7e0168c2273c0fdf5375b5e7ba2c60ee178d"
+    },
+    {
+      "path": "images/L02-switch-uplink-2026-10-25-210459-S2-recovery-MAC-table.png",
+      "source": "CCNA_2027/evidence/L02/2026-10-25-210459-S2-recovery-MAC-table.png",
+      "kind": "learner device screenshot",
+      "bytes": 284865,
+      "sha256": "85e900de95f87f801909ccc5f83b372742d681714207b6a531d182a12f34baf3"
+    },
+    {
+      "path": "packet-tracer/L02-baseline.pkt",
+      "source": "CCNA_2027/evidence/L02/L02-baseline.pkt",
+      "kind": "learner saved Packet Tracer project",
+      "bytes": 53722,
+      "sha256": "73706c357d09a90de053d822eca1111f0d57701f25996e57ae706961366159a7"
+    },
+    {
+      "path": "packet-tracer/L02-recovered.pkt",
+      "source": "CCNA_2027/evidence/L02/L02-recovered.pkt",
+      "kind": "learner saved Packet Tracer project",
+      "bytes": 54647,
+      "sha256": "15e587de660088850b875ca71cac66b522c15f7cf0094ff6ae84e94ca486ef37"
+    },
+    {
+      "path": "packet-tracer/L02-uplink-fault.pkt",
+      "source": "CCNA_2027/evidence/L02/L02-uplink-fault.pkt",
+      "kind": "learner saved Packet Tracer project",
+      "bytes": 54153,
+      "sha256": "4cd0f176eb1fb9461175bec94930b95dc6db86bd24839d42f762712f3448be1f"
+    },
+    {
+      "path": "images/L03-mac-arp-2026-10-27-110305-PC-ARP-cache-after-reset.png",
+      "source": "CCNA_2027/evidence/L03/2026-10-27-110305-PC-ARP-cache-after-reset.png",
+      "kind": "learner device screenshot",
+      "bytes": 41483,
+      "sha256": "7443f9ac52c5ab7b845d5a7204fd0f729c07126b6e948023fd749ab9f35c6edb"
+    },
+    {
+      "path": "images/L03-mac-arp-2026-10-27-111720-S1-known-unicast.png",
+      "source": "CCNA_2027/evidence/L03/2026-10-27-111720-S1-known-unicast.png",
+      "kind": "learner device screenshot",
+      "bytes": 210902,
+      "sha256": "2f193655625cd2c5ddbb7920d21ede59ad806e58287b303418646f19d964d479"
+    },
+    {
+      "path": "images/L03-mac-arp-2026-10-27-112535-S1-MAC-final.png",
+      "source": "CCNA_2027/evidence/L03/2026-10-27-112535-S1-MAC-final.png",
+      "kind": "learner device screenshot",
+      "bytes": 65037,
+      "sha256": "9e29cd41347e79a907c6cfbce8f85c3bcd3f84e6028df3834f7c7fb63d032d40"
+    },
+    {
+      "path": "packet-tracer/L03-baseline.pkt",
+      "source": "CCNA_2027/evidence/L03/L03-baseline.pkt",
+      "kind": "learner saved Packet Tracer project",
+      "bytes": 49566,
+      "sha256": "715dbe6302d7837b95fe4ebf732440140a038808a27dd8c9d117c481790cfe40"
+    },
+    {
+      "path": "packet-tracer/L03-learning-reset.pkt",
+      "source": "CCNA_2027/evidence/L03/L03-learning-reset.pkt",
+      "kind": "learner saved Packet Tracer project",
+      "bytes": 49564,
+      "sha256": "7d8d518b4a6397501c70029d0d0620a2763b8637374b4bec4fbbae2188471252"
+    },
+    {
+      "path": "packet-tracer/L03-relearned.pkt",
+      "source": "CCNA_2027/evidence/L03/L03-relearned.pkt",
+      "kind": "learner saved Packet Tracer project",
+      "bytes": 49625,
+      "sha256": "f5922e2a317a8ddcd9cbcab307f12dabb4c548240a6832158549f26bca7aca01"
+    },
+    {
+      "path": "images/L04-dns-http-2026-10-27-210947-topology.png",
+      "source": "CCNA_2027/evidence/L04/2026-10-27-210947-topology.png",
+      "kind": "learner device screenshot",
+      "bytes": 39155,
+      "sha256": "4281139d97f94695fbfc99a645c94c4145eae37e71738c0c154f38a3f0409330"
+    },
+    {
+      "path": "images/L04-dns-http-2026-10-27-213218-PC-A-DNS-UDP-PDU.png",
+      "source": "CCNA_2027/evidence/L04/2026-10-27-213218-PC-A-DNS-UDP-PDU.png",
+      "kind": "learner device screenshot",
+      "bytes": 365739,
+      "sha256": "7f38df80a5465b706ed6a07e07c86b1a5af718ca2c4b7549d79089e6d4828420"
+    },
+    {
+      "path": "images/L04-dns-http-2026-10-27-214639-PC-A-HTTP-server-reset.png",
+      "source": "CCNA_2027/evidence/L04/2026-10-27-214639-PC-A-HTTP-server-reset.png",
+      "kind": "learner device screenshot",
+      "bytes": 82922,
+      "sha256": "d18d3bc0cae4e2c12e350f91221bda8e13615d1a2e65e1027175b8ab75baa811"
+    },
+    {
+      "path": "images/L04-dns-http-2026-10-27-214712-SRV1-HTTP-off.png",
+      "source": "CCNA_2027/evidence/L04/2026-10-27-214712-SRV1-HTTP-off.png",
+      "kind": "learner device screenshot",
+      "bytes": 192214,
+      "sha256": "f82659e6e1b7c6a2a06808823f14da004b0a836381c800a3dcfd6e9a0110af89"
+    },
+    {
+      "path": "images/L04-dns-http-2026-10-27-215228-PC-A-named-HTTP-helloworld-recovered.png",
+      "source": "CCNA_2027/evidence/L04/2026-10-27-215228-PC-A-named-HTTP-helloworld-recovered.png",
+      "kind": "learner device screenshot",
+      "bytes": 80035,
+      "sha256": "b16a836709b5e6e59841204603ea3eba6f1d45c684cd3fc89cbf19836ad6bb3d"
+    },
+    {
+      "path": "packet-tracer/L04-baseline.pkt",
+      "source": "CCNA_2027/evidence/L04/L04-baseline.pkt",
+      "kind": "learner saved Packet Tracer project",
+      "bytes": 60925,
+      "sha256": "92c2314646e4b0b365771c5846f540562d309e3a2d40936f7fd711b7087a36a0"
+    },
+    {
+      "path": "packet-tracer/L04-http-off.pkt",
+      "source": "CCNA_2027/evidence/L04/L04-http-off.pkt",
+      "kind": "learner saved Packet Tracer project",
+      "bytes": 61120,
+      "sha256": "4622c5500752a0dd04f407afb7aee8d064b3a2249ca420f5b614d2b3a28d3ebc"
+    },
+    {
+      "path": "packet-tracer/L04-recovered.pkt",
+      "source": "CCNA_2027/evidence/L04/L04-recovered.pkt",
+      "kind": "learner saved Packet Tracer project",
+      "bytes": 61102,
+      "sha256": "767d42f87f1bb1702b888006bac3ad593c702e503b5faa7b7f9fb57c3929de3e"
+    },
+    {
+      "path": "images/L05-client-gateway-2026-10-31-201816-topology.png",
+      "source": "CCNA_2027/evidence/L05/2026-10-31-201816-topology.png",
+      "kind": "learner device screenshot",
+      "bytes": 42540,
+      "sha256": "a10b8b8e329cb296a438470ad90b326dde9f53eeab0326607a9cce9c6d8cd7ab"
+    },
+    {
+      "path": "images/L05-client-gateway-2026-10-31-203217-PC-A-wrong-gateway.png",
+      "source": "CCNA_2027/evidence/L05/2026-10-31-203217-PC-A-wrong-gateway.png",
+      "kind": "learner device screenshot",
+      "bytes": 172797,
+      "sha256": "bfebfa7be998c9a7ceb8f5c612d78c77b208d1a0bc6d398780c3b052fea8bc28"
+    },
+    {
+      "path": "images/L05-client-gateway-2026-10-31-203732-fault-pings-ARP.png",
+      "source": "CCNA_2027/evidence/L05/2026-10-31-203732-fault-pings-ARP.png",
+      "kind": "learner device screenshot",
+      "bytes": 216541,
+      "sha256": "4de4a22f45a202a0aa108cb6d040e46bb22ff1ecfa4d7c603c438825d2cfdf38"
+    },
+    {
+      "path": "images/L05-client-gateway-2026-10-31-204506-PC-A-named-HTTP-recovered.png",
+      "source": "CCNA_2027/evidence/L05/2026-10-31-204506-PC-A-named-HTTP-recovered.png",
+      "kind": "learner device screenshot",
+      "bytes": 157142,
+      "sha256": "4bb7064d037196799e45bb0f524bea9a25420971654847802c4adbda73d45e7a"
+    },
+    {
+      "path": "images/L05-client-gateway-2026-10-31-204604-recovery-pings-ARP.png",
+      "source": "CCNA_2027/evidence/L05/2026-10-31-204604-recovery-pings-ARP.png",
+      "kind": "learner device screenshot",
+      "bytes": 252004,
+      "sha256": "1190521b3605e195797e9227683a646240e562f2f846d7b59e497bf6cbb82bfc"
+    },
+    {
+      "path": "packet-tracer/L05-baseline.pkt",
+      "source": "CCNA_2027/evidence/L05/L05-baseline.pkt",
+      "kind": "learner saved Packet Tracer project",
+      "bytes": 67879,
+      "sha256": "bdcb932bcfdb67294b42edbc03f65b631c7ddaffab2a542be7683ff583c527b4"
+    },
+    {
+      "path": "packet-tracer/L05-recovered.pkt",
+      "source": "CCNA_2027/evidence/L05/L05-recovered.pkt",
+      "kind": "learner saved Packet Tracer project",
+      "bytes": 67893,
+      "sha256": "7f9fee7be10c44b3da2710fbf09cd40ce11be499c1896dbb112679184fbe8097"
+    },
+    {
+      "path": "packet-tracer/L05-wrong-gateway.pkt",
+      "source": "CCNA_2027/evidence/L05/L05-wrong-gateway.pkt",
+      "kind": "learner saved Packet Tracer project",
+      "bytes": 68010,
+      "sha256": "d8c2a32462135dcd0cf430c478787a42745aac00c3043dc424037af78da6b129"
+    },
+    {
+      "path": "images/L06-layered-troubleshooting-2026-11-03-baseline-screenshots-172934-topology.png",
+      "source": "CCNA_2027/evidence/L06/2026-11-03-baseline-screenshots/172934-topology.png",
+      "kind": "learner device screenshot",
+      "bytes": 68069,
+      "sha256": "980f520a394bdb12f836e15919f3f28eb3a7d40def3e6226fd773a3f35d7bf63"
+    },
+    {
+      "path": "images/L06-layered-troubleshooting-2026-11-04-F1-screenshots-113408-fault-PC-A-pings.png",
+      "source": "CCNA_2027/evidence/L06/2026-11-04-F1-screenshots/113408-fault-PC-A-pings.png",
+      "kind": "learner device screenshot",
+      "bytes": 332736,
+      "sha256": "3437e61cb056f4f378709b959c49e4b551111c1d54767e6407de888d06b22f25"
+    },
+    {
+      "path": "images/L06-layered-troubleshooting-2026-11-04-MAC-observation-screenshots-112022-S6-first-request-flood-ports.png",
+      "source": "CCNA_2027/evidence/L06/2026-11-04-MAC-observation-screenshots/112022-S6-first-request-flood-ports.png",
+      "kind": "learner device screenshot",
+      "bytes": 145569,
+      "sha256": "e5a5d1f5e660e96f5a281a3221c39748ace1c508063900173629c4cdc491a024"
+    },
+    {
+      "path": "images/L06-layered-troubleshooting-2026-11-05-F2-F3-screenshots-03-141132.png",
+      "source": "CCNA_2027/evidence/L06/2026-11-05-F2-F3-screenshots/03-141132.png",
+      "kind": "learner device screenshot",
+      "bytes": 167399,
+      "sha256": "f5fdb3a99376b781f25c13b3d9ab7da27cfd5272d1ce5a38905943b29700a6ae"
+    },
+    {
+      "path": "images/L06-layered-troubleshooting-2026-11-05-F2-F3-screenshots-09-141612.png",
+      "source": "CCNA_2027/evidence/L06/2026-11-05-F2-F3-screenshots/09-141612.png",
+      "kind": "learner device screenshot",
+      "bytes": 304606,
+      "sha256": "56974350d3ec76d9fa304a0de71b1e53dc7f91121908316257af74eb4757f5c5"
+    },
+    {
+      "path": "images/L06-layered-troubleshooting-2026-11-05-F2-F3-screenshots-12-142419.png",
+      "source": "CCNA_2027/evidence/L06/2026-11-05-F2-F3-screenshots/12-142419.png",
+      "kind": "learner device screenshot",
+      "bytes": 191840,
+      "sha256": "cada382680ae672724f575ff3458622bb3be3c733e17d860c56de79d34bf2133"
+    },
+    {
+      "path": "images/L06-layered-troubleshooting-2026-11-05-F2-F3-screenshots-15-142641.png",
+      "source": "CCNA_2027/evidence/L06/2026-11-05-F2-F3-screenshots/15-142641.png",
+      "kind": "learner device screenshot",
+      "bytes": 97677,
+      "sha256": "1011825585bc9abd0f262f499fcc928c2f43865066c84ac4d6341441b98f5a30"
+    },
+    {
+      "path": "images/L06-layered-troubleshooting-2026-11-05-F2-F3-screenshots-17-142739.png",
+      "source": "CCNA_2027/evidence/L06/2026-11-05-F2-F3-screenshots/17-142739.png",
+      "kind": "learner device screenshot",
+      "bytes": 231407,
+      "sha256": "c32224550f4feb204dcb623f6e405257ba73cfb3922eeb42d456fbb1af193eef"
+    },
+    {
+      "path": "packet-tracer/L06-F1-cable-fault.pkt",
+      "source": "CCNA_2027/evidence/L06/L06-F1-cable-fault.pkt",
+      "kind": "learner saved Packet Tracer project",
+      "bytes": 66475,
+      "sha256": "d5488e3171bb135771642868aeec0e08c545a7b08d0703e83bdf7d12d08680bf"
+    },
+    {
+      "path": "packet-tracer/L06-F1-recovered.pkt",
+      "source": "CCNA_2027/evidence/L06/L06-F1-recovered.pkt",
+      "kind": "learner saved Packet Tracer project",
+      "bytes": 66680,
+      "sha256": "e96af716cdab0a770f8f487ee55d309094564d22ba860ab9076a4c34eb9c071d"
+    },
+    {
+      "path": "packet-tracer/L06-F2-recovered.pkt",
+      "source": "CCNA_2027/evidence/L06/L06-F2-recovered.pkt",
+      "kind": "learner saved Packet Tracer project",
+      "bytes": 66915,
+      "sha256": "6ec57536c082d0cafde668be095c6d6204cc552025b5fd273e8c439f264ff8e4"
+    },
+    {
+      "path": "packet-tracer/L06-F2-return-gateway-fault.pkt",
+      "source": "CCNA_2027/evidence/L06/L06-F2-return-gateway-fault.pkt",
+      "kind": "learner saved Packet Tracer project",
+      "bytes": 66719,
+      "sha256": "987f74435b4b31c2bd5ac05b589a89d8a6ce9893568bd07339eaefbc5d368e35"
+    },
+    {
+      "path": "packet-tracer/L06-F3-DNS-fault.pkt",
+      "source": "CCNA_2027/evidence/L06/L06-F3-DNS-fault.pkt",
+      "kind": "learner saved Packet Tracer project",
+      "bytes": 66915,
+      "sha256": "8fa7f588acaf8f9fa29e223b55aa1043b0f6c11468d89638b3f34d9e93bf12c9"
+    },
+    {
+      "path": "packet-tracer/L06-F3-recovered.pkt",
+      "source": "CCNA_2027/evidence/L06/L06-F3-recovered.pkt",
+      "kind": "learner saved Packet Tracer project",
+      "bytes": 66691,
+      "sha256": "50f06acd66b9e9089ccd569b7f9649ec84bd7e687ebfb847a18efc09a6c5103d"
+    },
+    {
+      "path": "packet-tracer/L06-MAC-observation.pkt",
+      "source": "CCNA_2027/evidence/L06/L06-MAC-observation.pkt",
+      "kind": "learner saved Packet Tracer project",
+      "bytes": 66596,
+      "sha256": "ca07747fd2b92eb4fd4b1f9d2eaaa0bf49d18bdf69a3d22719fe72b4c14d3246"
+    },
+    {
+      "path": "packet-tracer/L06-baseline.pkt",
+      "source": "CCNA_2027/evidence/L06/L06-baseline.pkt",
+      "kind": "learner saved Packet Tracer project",
+      "bytes": 65007,
+      "sha256": "212a4003296d95859f941d8e0ad17012809af83615d8b0837721643f9fa93513"
+    },
+    {
+      "path": "packet-tracer/U04-ios.pkt",
+      "source": "CCNA_Udemy/Study Notes/04 The IOS Operating System/04+The+IOS+Operating+System+Lab+Exercises/04 The IOS Operating System.pkt",
+      "kind": "course-associated Packet Tracer project; completion learner-reported",
+      "bytes": 45945,
+      "sha256": "f665ce8896c963b51cf63749e334e77c7c0a53338c27783d65863079cd79fe23"
+    },
+    {
+      "path": "packet-tracer/U11-device-functions.pkt",
+      "source": "CCNA_Udemy/Study Notes/11 Cisco Device Functions/11+Cisco+Device+Functions+Lab+Exercises/11 Cisco Device Functions.pkt",
+      "kind": "course-associated Packet Tracer project; completion learner-reported",
+      "bytes": 55014,
+      "sha256": "f1ccfb71acddad2a21f6d1c22fd20932bd8f8f018f35c03b3eafc55096216e88"
+    },
+    {
+      "path": "packet-tracer/U12-packet-life.pkt",
+      "source": "CCNA_Udemy/Study Notes/12 The Life of a Packet/12+The+Life+of+a+Packet+Lab+Exercises/12 The Life of a Packet.pkt",
+      "kind": "course-associated Packet Tracer project; completion learner-reported",
+      "bytes": 72309,
+      "sha256": "e0b4203bcb5790e0b06f6d2cf4bbcea28a9563ab39f126fa841d1132aea7a22a"
+    },
+    {
+      "path": "packet-tracer/U13-troubleshooting-method.pkt",
+      "source": "CCNA_Udemy/Study Notes/13+The+Cisco+Troubleshooting+Methodology+Lab+Exercises/13 The Cisco Troubleshooting Methodology.pkt",
+      "kind": "course-associated Packet Tracer project; completion learner-reported",
+      "bytes": 72422,
+      "sha256": "662f667bc3a6bc89ed0e2e72e40cab7a58f4f33ed7e04ae853567cfe2722e5f2"
+    },
+    {
+      "path": "packet-tracer/U14-router-switch-basics.pkt",
+      "source": "CCNA_Udemy/Study Notes/14 Cisco Router and Switch Basics/14+Cisco+Router+and+Switch+Basics+Lab+Exercises/14 Cisco Router and Switch Basics.pkt",
+      "kind": "course-associated Packet Tracer project; completion learner-reported",
+      "bytes": 49680,
+      "sha256": "28836544112cb7290b35fec6c0745b1691118b01ed658464756be1bcfdde6379"
+    },
+    {
+      "path": "packet-tracer/U15-device-management.pkt",
+      "source": "CCNA_Udemy/Study Notes/15 Cisco Device Management/15+Cisco+Device+Management+Lab+Exercises+v2/15 Cisco Device Management.pkt",
+      "kind": "course-associated Packet Tracer project; completion learner-reported",
+      "bytes": 70522,
+      "sha256": "77e48c5302cc1e9ccafe055b503f6409fc348a2aac96f89b35312b9c5964b986"
+    },
+    {
+      "path": "packet-tracer/U16-routing-fundamentals.pkt",
+      "source": "CCNA_Udemy/Study Notes/16 Routing Fundamentals/16+Routing+Fundamentals+Lab+Exercises/16 Routing Fundamentals.pkt",
+      "kind": "course-associated Packet Tracer project; completion learner-reported",
+      "bytes": 47640,
+      "sha256": "1a507779695be43b76b694b91d55d59ea6d97fefda72073cef3b159974c11346"
+    },
+    {
+      "path": "packet-tracer/U17-dynamic-routing.pkt",
+      "source": "CCNA_Udemy/Study Notes/17 Dynamic Routing Protocols/17+Dynamic+Routing+Protocols+Lab+Exercises/17 Dynamic Routing Protocols.pkt",
+      "kind": "course-associated Packet Tracer project; completion learner-reported",
+      "bytes": 47858,
+      "sha256": "00ebb14d05a6a9e577234c91961b3c5b6cd832ec2221bc4126567e47eaace51a"
+    },
+    {
+      "path": "packet-tracer/U18-connectivity-troubleshooting.pkt",
+      "source": "CCNA_Udemy/Study Notes/18+Connectivity+Troubleshooting+Lab+Exercises/18 Connectivity Troubleshooting.pkt",
+      "kind": "course-associated Packet Tracer project; completion learner-reported",
+      "bytes": 66233,
+      "sha256": "a52890c2a991c5ad79f4c1bb986222d5dacc7a59530b36b056ea2eaed19a9bcd"
+    },
+    {
+      "path": "packet-tracer/U19-1-igp.pkt",
+      "source": "CCNA_Udemy/Study Notes/19 IGP Interior Gateway Protocol Fundamentals/19-1+IGP+Fundamentals+Configuration+Lab+Exercises/19-1 IGP Fundamentals Configuration.pkt",
+      "kind": "course-associated Packet Tracer project; completion learner-reported",
+      "bytes": 66757,
+      "sha256": "dee31fcd93cb35559cb6ea63baa05d001187580b7dbd50718663aaacf589e165"
+    },
+    {
+      "path": "images/course-748528e59ff8.jpg",
+      "source": "CCNA_Udemy/Study Notes/11 Cisco Device Functions/11+Cisco+Device+Functions+Lab+Exercises/11 Cisco Device Functions.jpg",
+      "kind": "course-supplied topology diagram, not execution evidence",
+      "bytes": 36164,
+      "sha256": "748528e59ff822cced51f41908148f8a5cb231ff2593e325c604f3a20fac60af",
+      "source_aliases": []
+    },
+    {
+      "path": "images/course-20a3429d14cd.jpg",
+      "source": "CCNA_Udemy/Study Notes/12 The Life of a Packet/12+The+Life+of+a+Packet+Lab+Exercises/12 The Life of a Packet.jpg",
+      "kind": "course-supplied topology diagram, not execution evidence",
+      "bytes": 33405,
+      "sha256": "20a3429d14cdd7d9dc174f71add9fede54f43e1e946fc68fd76b51d51da52069",
+      "source_aliases": [
+        "CCNA_Udemy/Study Notes/13+The+Cisco+Troubleshooting+Methodology+Lab+Exercises/13 The Cisco Troubleshooting Methodology.jpg"
+      ]
+    },
+    {
+      "path": "images/course-ceb200ba3384.jpg",
+      "source": "CCNA_Udemy/Study Notes/14 Cisco Router and Switch Basics/14+Cisco+Router+and+Switch+Basics+Lab+Exercises/14 Cisco Router and Switch Basics.jpg",
+      "kind": "course-supplied topology diagram, not execution evidence",
+      "bytes": 45988,
+      "sha256": "ceb200ba338496042d9bba793accc8de246f8c3ecb71f96290c0ec3ce0422988",
+      "source_aliases": []
+    },
+    {
+      "path": "images/course-585e2fc0a3a3.jpg",
+      "source": "CCNA_Udemy/Study Notes/15 Cisco Device Management/15+Cisco+Device+Management+Lab+Exercises+v2/15 Cisco Device Management.jpg",
+      "kind": "course-supplied topology diagram, not execution evidence",
+      "bytes": 47518,
+      "sha256": "585e2fc0a3a3712749d7936cd58f5b6356951ad5f97acb7c9966e40cc7c95ca6",
+      "source_aliases": []
+    },
+    {
+      "path": "images/course-e753083ab44c.jpg",
+      "source": "CCNA_Udemy/Study Notes/16 Routing Fundamentals/16+Routing+Fundamentals+Lab+Exercises/16 Routing Fundamentals.JPG",
+      "kind": "course-supplied topology diagram, not execution evidence",
+      "bytes": 66140,
+      "sha256": "e753083ab44cbe2845e5e8caf2f924f2e0d72eca521ac26554733639127ba17b",
+      "source_aliases": []
+    },
+    {
+      "path": "images/course-5617218e5fae.jpg",
+      "source": "CCNA_Udemy/Study Notes/17 Dynamic Routing Protocols/17+Dynamic+Routing+Protocols+Lab+Exercises/17 Dynamic Routing Protocols.JPG",
+      "kind": "course-supplied topology diagram, not execution evidence",
+      "bytes": 65807,
+      "sha256": "5617218e5fae98c51f985af49636ee750383870f564a9be6eb3b41b8d3ce0d75",
+      "source_aliases": [
+        "CCNA_Udemy/Study Notes/18+Connectivity+Troubleshooting+Lab+Exercises/18 Connectivity Troubleshooting.JPG",
+        "CCNA_Udemy/Study Notes/19 IGP Interior Gateway Protocol Fundamentals/19-1+IGP+Fundamentals+Configuration+Lab+Exercises/19-1 IGP Fundamentals Configuration.JPG"
+      ]
+    },
+    {
+      "path": "images/L01-access-port-2026-10-23-200314-R1-save-success.png",
+      "source": "CCNA_2027/evidence/L01/2026-10-23-200314-R1-save-success.png",
+      "kind": "learner device screenshot",
+      "bytes": 32648,
+      "sha256": "d58fd48b475a28744edfc404ee631daeaba9158619d61bc1f415dbe2f45820de"
+    }
+  ]
+}
