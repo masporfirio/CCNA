@@ -1,16 +1,18 @@
 # CCNA · Packet Tracer lab portfolio
 
-**Marcelo da Silva Porfirio** · Cisco IOS · IPv4 routing · Ethernet switching · Structured troubleshooting
+**Marcelo da Silva Porfirio** · CCNA studies · Cisco IOS · Routing and switching
 
-A practical CCNA study portfolio with **16 labs**, explanatory command notes, original troubleshooting case studies and the available Packet Tracer projects. Material is organized in English for technical study and portfolio review.
+A collection of **16 Packet Tracer labs** from my CCNA studies. I use these labs to practise device configuration, understand how traffic moves through a network and troubleshoot connectivity problems.
 
-## Start here
+The lab notes explain the scenarios, commands and solutions, with diagrams and screenshots where available.
 
-1. Choose a lab below and read its scenario, fault scope, commands and validation.
-2. Download the relevant `.pkt` from `packet-tracer/` and open a separate working copy in Cisco Packet Tracer. The study workspace uses version 9.0.1; every archived file has not been independently compatibility-tested.
-3. Compare actual device output with the linked evidence. Keep the baseline, fault and recovery states separate.
+## Getting started
 
-**Evidence matters:** the six guided labs have learner screenshots and reviewed observations. The ten Udemy labs through **19.1 IGP** are completed according to Marcelo's report on **5 November 2026**; their course diagrams and reference solutions do not establish independently captured execution. Saved `.pkt` files are preserved without claiming that all internal configurations were inspected. [Read the evidence policy](docs/EVIDENCE_POLICY.md).
+1. Choose a lab below and read its objective and topology.
+2. Download the corresponding `.pkt` file from `packet-tracer/` and open a working copy in Cisco Packet Tracer.
+3. Follow the configuration or troubleshooting steps, run the checks and compare your results with the lab notes.
+
+The collection includes **six guided practice labs** and **ten exercises from my Udemy CCNA course**, completed through **19.1 — IGP Fundamentals**.
 
 ## Guided labs with screenshot evidence
 
