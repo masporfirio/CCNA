@@ -1,19 +1,5 @@
 # CCNA · Packet Tracer lab portfolio
 
-**Marcelo da Silva Porfirio** · CCNA studies · Cisco IOS · Routing and switching
-
-A collection of **16 Packet Tracer labs** from my CCNA studies. I use these labs to practise device configuration, understand how traffic moves through a network and troubleshoot connectivity problems.
-
-The lab notes explain the scenarios, commands and solutions, with diagrams and screenshots where available.
-
-## Getting started
-
-1. Choose a lab below and read its objective and topology.
-2. Download the corresponding `.pkt` file from `packet-tracer/` and open a working copy in Cisco Packet Tracer.
-3. Follow the configuration or troubleshooting steps, run the checks and compare your results with the lab notes.
-
-The collection includes **six guided practice labs** and **ten exercises from my Udemy CCNA course**, completed through **19.1 — IGP Fundamentals**.
-
 ## Guided labs with screenshot evidence
 
 | Lab | Scenario / troubleshooting | What to inspect |
