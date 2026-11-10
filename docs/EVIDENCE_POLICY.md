@@ -10,6 +10,9 @@ Repository assembled on 5 November 2026 from the current local lab material and 
 | L05 | Wrong client gateway isolation and restoration | Some sources attributed from the capture sequence; no .254 ARP packet capture |
 | L06 | Baseline, unknown-unicast egress copies, three faults and operational recovery | No detailed DNS-header/cache audit; concepts completed with guided review |
 | Udemy 04, 11–18 and 19.1 | Completion stated by Marcelo; ten local course projects and nine topology diagrams found | No separate learner screenshots or independently verified final configurations in this course folder |
+| Udemy 22 | Completion reported by Marcelo on 10 November 2026; supplied exercise reference reviewed | Documentation only in this addition; no learner `.pkt`, device outputs or execution captures supplied |
+
+Lab 20 (OSPF) was explicitly left out on 10 November 2026 because Marcelo needs to repeat it. Lab 22 does not extend the earlier completion boundary across unlisted sections.
 
 ## Interpretation rules
 
