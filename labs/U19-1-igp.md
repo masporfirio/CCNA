@@ -9,7 +9,7 @@
 
 ## Scenario
 
-The supplied five-router topology already has interface addresses. The exercise configures RIPv2, advertises the provider-facing subnet, originates a default, then adds EIGRP to compare route selection. Marcelo explicitly reported completion **through this lab** on 5 November 2026. Later course labs are not counted as completed here.
+The supplied five-router topology already has interface addresses. The exercise configures RIPv2, advertises the provider-facing subnet, originates a default, then adds EIGRP to compare route selection. Marcelo explicitly reported completion **through this lab** on 5 November 2026. That statement describes the scope reported on 5 November; lab 22 was subsequently reported and documented separately on 10 November. It does not establish completion of the intervening sections.
 
 ## Phase 1 · Internal RIPv2 reachability
 
