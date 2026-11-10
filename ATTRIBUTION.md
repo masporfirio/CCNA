@@ -10,6 +10,8 @@ The ten course-associated `.pkt` projects and nine topology images were supplied
 
 The lab pages are original summaries and explanations. Full course PDFs, answer keys and IOS binaries are not included. Course completion through lab 19.1 was reported by Marcelo on 5 November 2026. Source filenames are recorded in the asset manifest so the course material is not presented as independently designed portfolio topology art.
 
+On 10 November 2026, lab 22 was added as an original study summary based on the supplied Flackbox VLAN/inter-VLAN routing exercise reference and Marcelo's completion statement. Its answer-key PDF and reference screenshots are not redistributed. No learner project or execution screenshots were supplied for this addition. Lab 20 (OSPF) remains outside the completed collection pending a repeat.
+
 Cisco, CCNA, IOS and Packet Tracer are trademarks of their respective owners. This is a personal study archive and is not an official Cisco course or endorsement.
 
 ## Technical references

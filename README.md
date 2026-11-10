@@ -11,9 +11,9 @@
 | [L05 · Client gateway](labs/L05-client-gateway.md) | Wrong local next hop | Local versus remote tests, IP/HTTP recovery |
 | [L06 · Layered troubleshooting](labs/L06-layered-troubleshooting.md) | Cable, server return gateway and client DNS | Control tests, unknown-unicast copies, separate repairs |
 
-## Udemy course labs · completed through 19.1 IGP
+## Udemy course labs · reported completion
 
-The numbering follows the course sections; a section number of 19.1 does not mean nineteen separate lab files were found. **Ten course `.pkt` files** were located through this boundary.
+The numbering follows the course sections, not a consecutive count of completed labs. **Eleven course labs are documented:** ten through 19.1 IGP, plus lab 22. **Ten course `.pkt` files** are available for the earlier group; lab 22 currently has documentation only.
 
 | Course lab | Subject | Completion / evidence |
 |---|---|---|
@@ -27,8 +27,9 @@ The numbering follows the course sections; a section number of 19.1 does not mea
 | [17](labs/U17-dynamic-routing.md) | Dynamic routing behavior and failover | Learner-reported; available course project; topology diagram |
 | [18](labs/U18-connectivity-troubleshooting.md) | Connectivity troubleshooting: a missing static route | Learner-reported; available course project; topology diagram |
 | [19.1](labs/U19-1-igp.md) | 19.1 IGP fundamentals: RIPv2 and EIGRP | Learner-reported; available course project; topology diagram |
+| [22](labs/U22-vlan-inter-vlan-routing.md) | VLANs, VTP, trunks and three inter-VLAN routing designs | Learner-reported on 10 November 2026; exercise reference reviewed; no learner `.pkt` or execution captures supplied |
 
-Later course sections are not counted as completed. The pending guided L07 is not represented as an executed lab.
+Lab 22 completion was reported on 10 November 2026. **Lab 20 (OSPF) needs to be repeated and is not included as completed.** Listing lab 22 does not imply completion of intervening or later sections. The pending guided L07 is not represented as an executed lab.
 
 ## Troubleshooting quick index
 
@@ -45,6 +46,7 @@ Later course sections are not counted as completed. The pending guided L07 is no
 | DNS complaint has several underlying causes | [U13 methodology](labs/U13-troubleshooting-method.md) |
 | Trace reaches R3; PC3 subnet route missing | [U18 static-route case](labs/U18-connectivity-troubleshooting.md) |
 | RIP route changes after EIGRP is introduced | [U19.1 route selection](labs/U19-1-igp.md) |
+| Same-VLAN works; cross-VLAN fails | [U22 VLAN and gateway checks](labs/U22-vlan-inter-vlan-routing.md#troubleshooting-map) |
 
 ## References and reuse
 
