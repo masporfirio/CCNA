@@ -13,7 +13,7 @@
 
 ## Udemy course labs · reported completion
 
-The numbering follows the course sections, not a consecutive count of completed labs. **Eleven course labs are documented:** ten through 19.1 IGP, plus lab 22. **Ten course `.pkt` files** are available for the earlier group; lab 22 currently has documentation only.
+The numbering follows the course sections, not a consecutive count of completed labs. **Thirteen course labs are documented:** ten through 19.1 IGP, plus labs 22, 23 and 24. **Twelve course-associated `.pkt` files** are available: ten for the earlier group and the learner-identified completed projects for labs 23 and 24. Lab 22 currently has documentation only.
 
 | Course lab | Subject | Completion / evidence |
 |---|---|---|
@@ -28,6 +28,10 @@ The numbering follows the course sections, not a consecutive count of completed 
 | [18](labs/U18-connectivity-troubleshooting.md) | Connectivity troubleshooting: a missing static route | Learner-reported; available course project; topology diagram |
 | [19.1](labs/U19-1-igp.md) | 19.1 IGP fundamentals: RIPv2 and EIGRP | Learner-reported; available course project; topology diagram |
 | [22](labs/U22-vlan-inter-vlan-routing.md) | VLANs, VTP, trunks and three inter-VLAN routing designs | Learner-reported on 10 November 2026; exercise reference reviewed; no learner `.pkt` or execution captures supplied |
+| [23](labs/U23-dhcp.md) | DHCP client, router server and relay to an external server | Learner-reported on 11 November 2026; learner-identified completed `.pkt`; reference walkthrough and verification checklist |
+| [24](labs/U24-hsrp.md) | HSRP virtual gateway, priority, preemption and failover | Learner-reported on 11 November 2026; learner-identified completed `.pkt`; reference walkthrough and verification checklist |
+
+Labs 23 and 24 were confirmed on 11 November 2026. The saved projects are available; no fresh full execution rerun or before/after captures are claimed for these additions.
 
 Lab 22 completion was reported on 10 November 2026. **Lab 20 (OSPF) needs to be repeated and is not included as completed.** Listing lab 22 does not imply completion of intervening or later sections. The pending guided L07 is not represented as an executed lab.
 
@@ -47,6 +51,8 @@ Lab 22 completion was reported on 10 November 2026. **Lab 20 (OSPF) needs to be 
 | Trace reaches R3; PC3 subnet route missing | [U18 static-route case](labs/U18-connectivity-troubleshooting.md) |
 | RIP route changes after EIGRP is introduced | [U19.1 route selection](labs/U19-1-igp.md) |
 | Same-VLAN works; cross-VLAN fails | [U22 VLAN and gateway checks](labs/U22-vlan-inter-vlan-routing.md#troubleshooting-map) |
+| Clients cannot lease from a server on another subnet | [U23 DHCP relay](labs/U23-dhcp.md#3-move-allocation-to-the-server-subnet) |
+| Higher-priority router remains standby | [U24 priority and preemption](labs/U24-hsrp.md#3-make-r1-preferred) |
 
 ## References and reuse
 
@@ -57,3 +63,4 @@ Lab 22 completion was reported on 10 November 2026. **Lab 20 (OSPF) needs to be 
 - [Attribution and course-material scope](ATTRIBUTION.md)
 
 These are isolated simulator exercises. They document study and practical troubleshooting; they do not assert employment experience or CCNA certification. No IOS binaries, full commercial course books, exam dumps or personal quiz records are included.
+

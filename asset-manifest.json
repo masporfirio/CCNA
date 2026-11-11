@@ -488,6 +488,25 @@
       "kind": "learner device screenshot",
       "bytes": 32648,
       "sha256": "d58fd48b475a28744edfc404ee631daeaba9158619d61bc1f415dbe2f45820de"
+    },
+    {
+      "path": "packet-tracer/U23-dhcp.pkt",
+      "source": "CCNA_Udemy/Study Notes/23 DHCP - Dynamic Host Configuration Protocol/23-1+DHCP+Configuration+Lab+Exercises/23-1 DHCP Configuration.pkt",
+      "kind": "course-derived Packet Tracer project identified by learner as completed; completion learner-reported",
+      "bytes": 82403,
+      "sha256": "a9bfc241a7569fff1d1ccdb3ff6ce9b2c83bf57901057f259166cab1fea1d649",
+      "completion_confirmed_on": "2026-11-11",
+      "independent_execution_retest": false
+    },
+    {
+      "path": "packet-tracer/U24-hsrp.pkt",
+      "source": "CCNA_Udemy/Study Notes/24 HSRP - Hot Standby Router Protocol/24-1+HSRP+Configuration+Lab+Exercises/24-1 HSRP Configuration.pkt",
+      "kind": "course-derived Packet Tracer project identified by learner as completed; completion learner-reported",
+      "bytes": 69706,
+      "sha256": "25bd951a0a7fecf7745da3510c28fcb180aac940971c0a947c67dc10f73cfc4e",
+      "completion_confirmed_on": "2026-11-11",
+      "independent_execution_retest": false
     }
-  ]
+  ],
+  "updated_on": "2026-11-11"
 }

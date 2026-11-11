@@ -11,6 +11,7 @@ Repository assembled on 5 November 2026 from the current local lab material and 
 | L06 | Baseline, unknown-unicast egress copies, three faults and operational recovery | No detailed DNS-header/cache audit; concepts completed with guided review |
 | Udemy 04, 11–18 and 19.1 | Completion stated by Marcelo; ten local course projects and nine topology diagrams found | No separate learner screenshots or independently verified final configurations in this course folder |
 | Udemy 22 | Completion reported by Marcelo on 10 November 2026; supplied exercise reference reviewed | Documentation only in this addition; no learner `.pkt`, device outputs or execution captures supplied |
+| Udemy 23 / 24 | Completion confirmed by Marcelo on 11 November 2026; two saved `.pkt` files identified by him as his completed versions; original study summaries and file fingerprints added | No independent full rerun, new lease/role transcripts or measured failover timing; checks describe expected verification |
 
 Lab 20 (OSPF) was explicitly left out on 10 November 2026 because Marcelo needs to repeat it. Lab 22 does not extend the earlier completion boundary across unlisted sections.
 
@@ -25,3 +26,4 @@ Lab 20 (OSPF) was explicitly left out on 10 November 2026 because Marcelo needs 
 - Written quizzes, answer keys, grades, personal schedules, local account paths and unrelated documents are outside this repository's purpose.
 
 The lab pages explain practical evidence, rather than certifying independent unseen mastery or completion of the full CCNA syllabus. Future labs should be added with the same distinction between reported completion, observed execution and expected behavior.
+

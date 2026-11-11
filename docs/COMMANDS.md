@@ -62,6 +62,24 @@ These examples explain commands used in the documented labs. They are not captur
 | `show version`, `show flash` | Inspect actual software/platform and stored files |
 | `copy startup-config tftp:` | Export a configuration backup to the lab's TFTP server |
 
+## DHCP and first-hop redundancy
+
+| Command / mode | Purpose | Pitfall |
+|---|---|---|
+| `ip address dhcp` · interface configuration | Request an address for the router interface | Does not create a client allocation pool |
+| `ip dhcp excluded-address <first> <last>` · global configuration | Reserve static infrastructure addresses | Exclusions must match the intended subnet |
+| `ip dhcp pool <name>` · global configuration | Enter a DHCP pool | Pool name is a local label |
+| `network`, `default-router`, `dns-server` · DHCP pool | Define the client subnet and options | Gateway and DNS are different roles |
+| `show ip dhcp pool`, `show ip dhcp binding` · privileged EXEC | Inspect local IOS allocation state | External-server leases are not owned by the relay |
+| `ip helper-address <server-IP>` · client-facing interface configuration | Relay DHCP requests to another subnet | Configuring it only on the server-facing interface misses client broadcasts |
+| PC `ipconfig /release`, `ipconfig /renew` | Release and request a client lease | Use an isolated working copy for deliberate lease-loss tests |
+| `show standby brief`, `show standby` · privileged EXEC | Inspect HSRP roles, group and virtual identity | Configuration intent does not establish the active role |
+| `standby <group> ip <virtual-IP>` · interface configuration | Define the shared gateway | Physical router addresses remain distinct |
+| `standby <group> priority <value>` · interface configuration | Set election preference | Higher priority alone does not displace a healthy active router |
+| `standby <group> preempt` · interface configuration | Allow a higher-priority router to reclaim active | Check delays and forwarding readiness |
+
+See [U23 DHCP](../labs/U23-dhcp.md) and [U24 HSRP](../labs/U24-hsrp.md) for context and evidence limits.
+
 ## Three distinctions to remember
 
 1. Route lookup chooses the most specific matching prefix first. AD compares eligible sources for the same prefix; each protocol uses its own metric.
@@ -69,3 +87,4 @@ These examples explain commands used in the documented labs. They are not captur
 3. DNS resolves names to addresses. ARP resolves on-link IPv4/next-hop MAC mappings. NAT translates network addresses. They are different functions.
 
 See [official references](../ATTRIBUTION.md#technical-references) and the individual case studies for actual evidence and limits.
+

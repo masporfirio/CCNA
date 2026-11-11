@@ -6,11 +6,13 @@ The six guided case studies document Marcelo da Silva Porfirio's Packet Tracer l
 
 ## Udemy / Flackbox course material
 
-The ten course-associated `.pkt` projects and nine topology images were supplied in Marcelo's local `CCNA_Udemy` course folder. Titles and instructional content identify Flackbox course material. Their original authorship and any applicable course terms remain with their respective creators; no repository-wide open-source licence is applied to third-party assets.
+The twelve course-associated `.pkt` projects and nine topology images were supplied in Marcelo's local `CCNA_Udemy` course folder. Titles and instructional content identify Flackbox course material. Their original authorship and any applicable course terms remain with their respective creators; no repository-wide open-source licence is applied to third-party assets.
 
 The lab pages are original summaries and explanations. Full course PDFs, answer keys and IOS binaries are not included. Course completion through lab 19.1 was reported by Marcelo on 5 November 2026. Source filenames are recorded in the asset manifest so the course material is not presented as independently designed portfolio topology art.
 
 On 10 November 2026, lab 22 was added as an original study summary based on the supplied Flackbox VLAN/inter-VLAN routing exercise reference and Marcelo's completion statement. Its answer-key PDF and reference screenshots are not redistributed. No learner project or execution screenshots were supplied for this addition. Lab 20 (OSPF) remains outside the completed collection pending a repeat.
+
+On 11 November 2026, labs 23 (DHCP) and 24 (HSRP) were added with original study explanations and the two course-folder `.pkt` files Marcelo identified as his completed versions. Their course-derived topology remains attributed to Flackbox; learner completion is reported rather than independently retested. No course PDFs, answer keys or reference configuration bundles were added. File fingerprints preserve the exact supplied bytes.
 
 Cisco, CCNA, IOS and Packet Tracer are trademarks of their respective owners. This is a personal study archive and is not an official Cisco course or endorsement.
 
@@ -24,3 +26,4 @@ Official documentation checked while assembling the explanations on 5 November 2
 - [Cisco: Troubleshooting TCP/IP](https://www.cisco.com/en/US/docs/internetworking/troubleshooting/guide/tr1907.html) — local/remote reachability, configuration and DNS checks. This is a legacy reference, used for stable diagnostic principles rather than current product/version guidance.
 
 Reference explanations are paraphrased. Actual simulated results are attributed to the individual screenshot evidence or clearly labeled learner reports.
+
