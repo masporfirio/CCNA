@@ -13,7 +13,7 @@
 
 ## Udemy course labs · reported completion
 
-The numbering follows the course sections, not a consecutive count of completed labs. **Thirteen course labs are documented:** ten through 19.1 IGP, plus labs 22, 23 and 24. **Twelve course-associated `.pkt` files** are available: ten for the earlier group and the learner-identified completed projects for labs 23 and 24. Lab 22 currently has documentation only.
+The numbering follows the course sections, not a consecutive count of completed labs. **Sixteen course labs are documented:** ten through 19.1 IGP, plus labs 20, 22, 23, 24, 25.1 and 25.2. **Fifteen course-associated `.pkt` files** are available. Lab 22 currently has documentation only.
 
 | Course lab | Subject | Completion / evidence |
 |---|---|---|
@@ -27,13 +27,16 @@ The numbering follows the course sections, not a consecutive count of completed 
 | [17](labs/U17-dynamic-routing.md) | Dynamic routing behavior and failover | Learner-reported; available course project; topology diagram |
 | [18](labs/U18-connectivity-troubleshooting.md) | Connectivity troubleshooting: a missing static route | Learner-reported; available course project; topology diagram |
 | [19.1](labs/U19-1-igp.md) | 19.1 IGP fundamentals: RIPv2 and EIGRP | Learner-reported; available course project; topology diagram |
+| [20](labs/U20-ospf.md) | OSPF adjacencies, costs, ECMP, default routes, areas, summaries and DR/BDR | Learner-reported on 13 November 2026; saved `.pkt`; course diagrams and verification checklist |
 | [22](labs/U22-vlan-inter-vlan-routing.md) | VLANs, VTP, trunks and three inter-VLAN routing designs | Learner-reported on 10 November 2026; exercise reference reviewed; no learner `.pkt` or execution captures supplied |
 | [23](labs/U23-dhcp.md) | DHCP client, router server and relay to an external server | Learner-reported on 11 November 2026; learner-identified completed `.pkt`; reference walkthrough and verification checklist |
 | [24](labs/U24-hsrp.md) | HSRP virtual gateway, priority, preemption and failover | Learner-reported on 11 November 2026; learner-identified completed `.pkt`; reference walkthrough and verification checklist |
+| [25.1](labs/U25-1-stp-troubleshooting.md) | STP root and Layer 2 path diagnosis alongside HSRP | Learner-reported on 13 November 2026; saved `.pkt`; reference diagnosis and topology |
+| [25.2](labs/U25-2-stp-configuration.md) | Rapid PVST+, root placement, PortFast, BPDU Guard and Root Guard | Learner-reported on 13 November 2026; saved v1.1 `.pkt`; configuration walkthrough and checks |
 
 Labs 23 and 24 were confirmed on 11 November 2026. The saved projects are available; no fresh full execution rerun or before/after captures are claimed for these additions.
 
-Lab 22 completion was reported on 10 November 2026. **Lab 20 (OSPF) needs to be repeated and is not included as completed.** Listing lab 22 does not imply completion of intervening or later sections. The pending guided L07 is not represented as an executed lab.
+Labs 20, 25.1 and 25.2 were reported completed on 13 November 2026. This supersedes the earlier pending-repeat status of lab 20. Their supplied projects are preserved without a fresh simulator rerun or new execution captures. Lab 22 completion was reported on 10 November 2026. Unlisted sections and the pending guided L07 are not represented as completed.
 
 ## Troubleshooting quick index
 
@@ -53,6 +56,9 @@ Lab 22 completion was reported on 10 November 2026. **Lab 20 (OSPF) needs to be 
 | Same-VLAN works; cross-VLAN fails | [U22 VLAN and gateway checks](labs/U22-vlan-inter-vlan-routing.md#troubleshooting-map) |
 | Clients cannot lease from a server on another subnet | [U23 DHCP relay](labs/U23-dhcp.md#3-move-allocation-to-the-server-subnet) |
 | Higher-priority router remains standby | [U24 priority and preemption](labs/U24-hsrp.md#3-make-r1-preferred) |
+| Missing OSPF neighbor, default or equal-cost path | [U20 OSPF diagnosis](labs/U20-ospf.md#verification-and-troubleshooting-map) |
+| Trace looks correct but the switch path detours | [U25.1 STP path investigation](labs/U25-1-stp-troubleshooting.md) |
+| Unexpected root, error-disabled or root-inconsistent port | [U25.2 STP protections](labs/U25-2-stp-configuration.md#verification-and-troubleshooting-map) |
 
 ## References and reuse
 

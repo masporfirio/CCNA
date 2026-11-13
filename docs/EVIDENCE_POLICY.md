@@ -12,8 +12,9 @@ Repository assembled on 5 November 2026 from the current local lab material and 
 | Udemy 04, 11–18 and 19.1 | Completion stated by Marcelo; ten local course projects and nine topology diagrams found | No separate learner screenshots or independently verified final configurations in this course folder |
 | Udemy 22 | Completion reported by Marcelo on 10 November 2026; supplied exercise reference reviewed | Documentation only in this addition; no learner `.pkt`, device outputs or execution captures supplied |
 | Udemy 23 / 24 | Completion confirmed by Marcelo on 11 November 2026; two saved `.pkt` files identified by him as his completed versions; original study summaries and file fingerprints added | No independent full rerun, new lease/role transcripts or measured failover timing; checks describe expected verification |
+| Udemy 20 / 25.1 / 25.2 | Completion reported by Marcelo on 13 November 2026; three supplied saved `.pkt` projects, selected course diagrams, original study notes and fingerprints | No independent simulator rerun, device-state transcripts, measured convergence or new fault/recovery captures; paths and checks are labeled reference/expected behavior |
 
-Lab 20 (OSPF) was explicitly left out on 10 November 2026 because Marcelo needs to repeat it. Lab 22 does not extend the earlier completion boundary across unlisted sections.
+Lab 20 (OSPF) was left out pending a repeat on 10 November 2026. Marcelo's 13 November request identifies it and labs 25.1/25.2 as completed for publication, superseding that pending status. Only listed sections are included; gaps in course numbering do not imply completion.
 
 ## Interpretation rules
 

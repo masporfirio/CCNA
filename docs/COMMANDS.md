@@ -57,7 +57,7 @@ These examples explain commands used in the documented labs. They are not captur
 | `router rip` + `version 2` | Configure the exercise's RIPv2 process |
 | `router eigrp 100` | Classic EIGRP AS context; align intended peers |
 | `router ospf 1` | Local OSPF process context; process ID is not the EIGRP AS |
-| `passive-interface <port>` | Protocol-specific behavior: RIP suppresses outgoing updates; EIGRP suppresses hellos/adjacency |
+| `passive-interface <port>` | Protocol-specific behavior: RIP suppresses outgoing updates; EIGRP suppresses hellos/adjacency; OSPF suppresses Hellos/adjacency while advertising the selected connected subnet |
 | `show cdp neighbors detail` | Check direct Cisco neighbors; CDP is not an application reachability test |
 | `show version`, `show flash` | Inspect actual software/platform and stored files |
 | `copy startup-config tftp:` | Export a configuration backup to the lab's TFTP server |
@@ -79,6 +79,25 @@ These examples explain commands used in the documented labs. They are not captur
 | `standby <group> preempt` · interface configuration | Allow a higher-priority router to reclaim active | Check delays and forwarding readiness |
 
 See [U23 DHCP](../labs/U23-dhcp.md) and [U24 HSRP](../labs/U24-hsrp.md) for context and evidence limits.
+
+## OSPF and spanning tree
+
+| Command / context | Purpose | Pitfall |
+|---|---|---|
+| `show ip ospf neighbor`, `show ip ospf interface` · EXEC | Inspect neighbor states, areas, costs and DR/BDR | A broadcast DROTHER pair can normally remain 2WAY |
+| `auto-cost reference-bandwidth 100000` · OSPF process | Use a 100 Gbps reference, specified in Mbps | Apply consistently; does not change physical interface speed |
+| `ip ospf cost 1500` · interface | Override outgoing OSPF interface cost | Compare whole paths and both directions |
+| `default-information originate` · OSPF process | Advertise a default under the normal RIB prerequisite | A provider-connected subnet alone is not a default |
+| `area 0 range 10.1.0.0 255.255.0.0` · ABR OSPF process | Summarize source-area prefixes toward other areas | Uses a mask; multiple summary LSAs do not guarantee ECMP |
+| `ip ospf priority 100` · interface | Influence a future DR/BDR election | Does not preempt a healthy incumbent |
+| `show spanning-tree vlan 10` · EXEC | Inspect root, cost and per-port roles for VLAN 10 | Compare the same VLAN on every switch |
+| `spanning-tree mode rapid-pvst` · global | Enable the exercise's rapid per-VLAN mode | Verify peers and resulting state; no timing guarantee |
+| `spanning-tree vlan 10 root primary` / `root secondary` · global | Establish preferred and backup root priorities | Inspect actual bridge IDs after applying |
+| `spanning-tree portfast` · endpoint interface | Bring an endpoint port promptly into forwarding | Select true edge ports, not inter-switch links |
+| `spanning-tree bpduguard enable` · interface | Error-disable the port if a BPDU arrives | Diagnose the unexpected bridge before recovery |
+| `spanning-tree guard root` · distribution-to-access interface | Block superior root information with root-inconsistent state | Do not apply to a legitimate upstream root port |
+
+See [U20 OSPF](../labs/U20-ospf.md), [U25.1 diagnosis](../labs/U25-1-stp-troubleshooting.md) and [U25.2 configuration](../labs/U25-2-stp-configuration.md) for the topology-specific examples.
 
 ## Three distinctions to remember
 

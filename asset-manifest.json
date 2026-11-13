@@ -479,7 +479,8 @@
       "sha256": "5617218e5fae98c51f985af49636ee750383870f564a9be6eb3b41b8d3ce0d75",
       "source_aliases": [
         "CCNA_Udemy/Study Notes/18+Connectivity+Troubleshooting+Lab+Exercises/18 Connectivity Troubleshooting.JPG",
-        "CCNA_Udemy/Study Notes/19 IGP Interior Gateway Protocol Fundamentals/19-1+IGP+Fundamentals+Configuration+Lab+Exercises/19-1 IGP Fundamentals Configuration.JPG"
+        "CCNA_Udemy/Study Notes/19 IGP Interior Gateway Protocol Fundamentals/19-1+IGP+Fundamentals+Configuration+Lab+Exercises/19-1 IGP Fundamentals Configuration.JPG",
+        "CCNA_Udemy/Study Notes/20 OSPF - Open Shortest Path First/20-1+OSPF+Configuration+Lab+Exercises/20 Single Area OSPF.JPG"
       ]
     },
     {
@@ -506,7 +507,58 @@
       "sha256": "25bd951a0a7fecf7745da3510c28fcb180aac940971c0a947c67dc10f73cfc4e",
       "completion_confirmed_on": "2026-11-11",
       "independent_execution_retest": false
+    },
+    {
+      "path": "packet-tracer/U20-ospf.pkt",
+      "source": "CCNA_Udemy/Study Notes/20 OSPF - Open Shortest Path First/20-1+OSPF+Configuration+Lab+Exercises/20-1 OSPF Configuration.pkt",
+      "kind": "course-derived Packet Tracer project identified by learner as completed; completion learner-reported",
+      "bytes": 75559,
+      "sha256": "3c068ccefa91da68de599028ef784cbc2ba94017adc40ead356df24aae79c1b7",
+      "completion_confirmed_on": "2026-11-13",
+      "independent_execution_retest": false
+    },
+    {
+      "path": "packet-tracer/U25-1-stp-troubleshooting.pkt",
+      "source": "CCNA_Udemy/Study Notes/25 STP - Spanning Tree Protocol/25-1+STP+Troubleshooting+Lab+Exercises/25-1 STP Troubleshooting.pkt",
+      "kind": "course-derived Packet Tracer project identified by learner as completed; completion learner-reported",
+      "bytes": 70819,
+      "sha256": "5cda42b4441c6b44b86971e116697388dff970791c322e7829fab515d584ea7b",
+      "completion_confirmed_on": "2026-11-13",
+      "independent_execution_retest": false
+    },
+    {
+      "path": "packet-tracer/U25-2-stp-configuration.pkt",
+      "source": "CCNA_Udemy/Study Notes/25 STP - Spanning Tree Protocol/25-2+STP+Configuration+Lab+Exercises+v1.1/25-2 STP Configuration v1.1.pkt",
+      "kind": "course-derived Packet Tracer project identified by learner as completed; completion learner-reported",
+      "bytes": 71186,
+      "sha256": "fc0b1fc2b0bd0d414706fa4d5757caf4457b3b5d9b50b0d898547dbad14bd0ab",
+      "completion_confirmed_on": "2026-11-13",
+      "independent_execution_retest": false
+    },
+    {
+      "path": "images/course-c05a1a258107.jpg",
+      "source": "CCNA_Udemy/Study Notes/20 OSPF - Open Shortest Path First/20-1+OSPF+Configuration+Lab+Exercises/20 Multi Area OSPF.JPG",
+      "kind": "course-supplied topology diagram, not execution evidence",
+      "bytes": 72035,
+      "sha256": "c05a1a2581079f7cdf1c05e203b34a733ba162f730b6babe6f7208053d0c2685"
+    },
+    {
+      "path": "images/course-0896189203af.jpg",
+      "source": "CCNA_Udemy/Study Notes/20 OSPF - Open Shortest Path First/20-1+OSPF+Configuration+Lab+Exercises/20 OSPF DR and BDR Designated Routers.JPG",
+      "kind": "course-supplied topology diagram, not execution evidence",
+      "bytes": 78697,
+      "sha256": "0896189203af33b8d0ebac6274e3c40ff93b373a6f374f1039ce38971a25584e"
+    },
+    {
+      "path": "images/course-ff8d99d44664.png",
+      "source": "CCNA_Udemy/Study Notes/25 STP - Spanning Tree Protocol/25-1+STP+Troubleshooting+Lab+Exercises/25-1 STP Troubleshooting.PNG",
+      "kind": "course-supplied topology diagram, not execution evidence",
+      "bytes": 58817,
+      "sha256": "ff8d99d44664327409a99fb72b001e8227799c1ca706131963bb8d3f1b77e113",
+      "source_aliases": [
+        "CCNA_Udemy/Study Notes/25 STP - Spanning Tree Protocol/25-2+STP+Configuration+Lab+Exercises+v1.1/25-2 STP Configuration v1.1.png"
+      ]
     }
   ],
-  "updated_on": "2026-11-11"
+  "updated_on": "2026-11-13"
 }
