@@ -11,32 +11,28 @@
 | [L05 · Client gateway](labs/L05-client-gateway.md) | Wrong local next hop | Local versus remote tests, IP/HTTP recovery |
 | [L06 · Layered troubleshooting](labs/L06-layered-troubleshooting.md) | Cable, server return gateway and client DNS | Control tests, unknown-unicast copies, separate repairs |
 
-## Udemy course labs · reported completion
+## Udemy course labs
 
-The numbering follows the course sections, not a consecutive count of completed labs. **Sixteen course labs are documented:** ten through 19.1 IGP, plus labs 20, 22, 23, 24, 25.1 and 25.2. **Fifteen course-associated `.pkt` files** are available. Lab 22 currently has documentation only.
+Course exercises with configuration walkthroughs and troubleshooting notes. Open a lab for its topology, key commands and verification steps.
 
-| Course lab | Subject | Completion / evidence |
+| Course lab | Subject | Practical focus |
 |---|---|---|
-| [04](labs/U04-ios.md) | The IOS operating system | Learner-reported; available course project |
-| [11](labs/U11-device-functions.md) | Cisco device functions | Learner-reported; available course project; topology diagram |
-| [12](labs/U12-packet-life.md) | The life of a packet: DNS and ARP | Learner-reported; available course project; topology diagram |
-| [13](labs/U13-troubleshooting-method.md) | Cisco troubleshooting methodology | Learner-reported; available course project; topology diagram |
-| [14](labs/U14-router-switch-basics.md) | Router and switch basics, CDP, speed and duplex | Learner-reported; available course project; topology diagram |
-| [15](labs/U15-device-management.md) | Device management, recovery and backups | Learner-reported; available course project; topology diagram |
-| [16](labs/U16-routing-fundamentals.md) | Connected, static, summary and default routes | Learner-reported; available course project; topology diagram |
-| [17](labs/U17-dynamic-routing.md) | Dynamic routing behavior and failover | Learner-reported; available course project; topology diagram |
-| [18](labs/U18-connectivity-troubleshooting.md) | Connectivity troubleshooting: a missing static route | Learner-reported; available course project; topology diagram |
-| [19.1](labs/U19-1-igp.md) | 19.1 IGP fundamentals: RIPv2 and EIGRP | Learner-reported; available course project; topology diagram |
-| [20](labs/U20-ospf.md) | OSPF adjacencies, costs, ECMP, default routes, areas, summaries and DR/BDR | Learner-reported on 13 November 2026; saved `.pkt`; course diagrams and verification checklist |
-| [22](labs/U22-vlan-inter-vlan-routing.md) | VLANs, VTP, trunks and three inter-VLAN routing designs | Learner-reported on 10 November 2026; exercise reference reviewed; no learner `.pkt` or execution captures supplied |
-| [23](labs/U23-dhcp.md) | DHCP client, router server and relay to an external server | Learner-reported on 11 November 2026; learner-identified completed `.pkt`; reference walkthrough and verification checklist |
-| [24](labs/U24-hsrp.md) | HSRP virtual gateway, priority, preemption and failover | Learner-reported on 11 November 2026; learner-identified completed `.pkt`; reference walkthrough and verification checklist |
-| [25.1](labs/U25-1-stp-troubleshooting.md) | STP root and Layer 2 path diagnosis alongside HSRP | Learner-reported on 13 November 2026; saved `.pkt`; reference diagnosis and topology |
-| [25.2](labs/U25-2-stp-configuration.md) | Rapid PVST+, root placement, PortFast, BPDU Guard and Root Guard | Learner-reported on 13 November 2026; saved v1.1 `.pkt`; configuration walkthrough and checks |
-
-Labs 23 and 24 were confirmed on 11 November 2026. The saved projects are available; no fresh full execution rerun or before/after captures are claimed for these additions.
-
-Labs 20, 25.1 and 25.2 were reported completed on 13 November 2026. This supersedes the earlier pending-repeat status of lab 20. Their supplied projects are preserved without a fresh simulator rerun or new execution captures. Lab 22 completion was reported on 10 November 2026. Unlisted sections and the pending guided L07 are not represented as completed.
+| [04](labs/U04-ios.md) | The IOS operating system | Navigate CLI modes, inspect settings and save configuration |
+| [11](labs/U11-device-functions.md) | Cisco device functions | Compare interface state, MAC learning and routing tables |
+| [12](labs/U12-packet-life.md) | The life of a packet | Follow DNS resolution, ARP and next-hop forwarding |
+| [13](labs/U13-troubleshooting-method.md) | Troubleshooting methodology | Isolate interface, resolver and DNS-service faults |
+| [14](labs/U14-router-switch-basics.md) | Router and switch basics | Configure management access; inspect CDP, speed and duplex |
+| [15](labs/U15-device-management.md) | Device management and recovery | Back up configurations and practise device recovery |
+| [16](labs/U16-routing-fundamentals.md) | Routing fundamentals | Choose next hops with connected, static, summary and default routes |
+| [17](labs/U17-dynamic-routing.md) | Dynamic routing | Compare route selection and alternate paths after a failure |
+| [18](labs/U18-connectivity-troubleshooting.md) | Connectivity troubleshooting | Use reachability tests and route tables to find a missing static route |
+| [19.1](labs/U19-1-igp.md) | IGP fundamentals: RIPv2 and EIGRP | Compare learned routes, metrics and administrative distance |
+| [20](labs/U20-ospf.md) | OSPF | Understand adjacencies, path costs, summaries and DR/BDR roles |
+| [22](labs/U22-vlan-inter-vlan-routing.md) | VLANs and inter-VLAN routing | Connect VLANs through trunks and compare gateway designs |
+| [23](labs/U23-dhcp.md) | DHCP | Allocate client addresses and relay requests across subnets |
+| [24](labs/U24-hsrp.md) | HSRP gateway redundancy | Set gateway preference and check failover and preemption |
+| [25.1](labs/U25-1-stp-troubleshooting.md) | STP troubleshooting | Trace the Layer 2 path and explain its relationship to HSRP |
+| [25.2](labs/U25-2-stp-configuration.md) | STP configuration | Place the root bridge and apply Rapid PVST+, PortFast and guards |
 
 ## Troubleshooting quick index
 
