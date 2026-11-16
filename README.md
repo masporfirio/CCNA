@@ -10,6 +10,7 @@
 | [L04 · DNS / TCP / HTTP](labs/L04-dns-http.md) | HTTP service disabled while ping still works | UDP/53, TCP SYN-ACK, application recovery |
 | [L05 · Client gateway](labs/L05-client-gateway.md) | Wrong local next hop | Local versus remote tests, IP/HTTP recovery |
 | [L06 · Layered troubleshooting](labs/L06-layered-troubleshooting.md) | Cable, server return gateway and client DNS | Control tests, unknown-unicast copies, separate repairs |
+| [L10 · Dual-stack gateway](labs/L10-dual-stack-gateway.md) | IPv4 works while remote IPv6 fails | Client IPv6 next hop, return path and both-family recovery |
 
 ## Udemy course labs
 
@@ -33,6 +34,7 @@ Course exercises with configuration walkthroughs and troubleshooting notes. Open
 | [24](labs/U24-hsrp.md) | HSRP gateway redundancy | Set gateway preference and check failover and preemption |
 | [25.1](labs/U25-1-stp-troubleshooting.md) | STP troubleshooting | Trace the Layer 2 path and explain its relationship to HSRP |
 | [25.2](labs/U25-2-stp-configuration.md) | STP configuration | Place the root bridge and apply Rapid PVST+, PortFast and guards |
+| [26.1](labs/U26-1-etherchannel.md) | EtherChannel: LACP, PAgP and Layer 3 | Bundle parallel links; verify trunks, member flags and OSPF |
 
 ## Troubleshooting quick index
 
@@ -55,6 +57,8 @@ Course exercises with configuration walkthroughs and troubleshooting notes. Open
 | Missing OSPF neighbor, default or equal-cost path | [U20 OSPF diagnosis](labs/U20-ospf.md#verification-and-troubleshooting-map) |
 | Trace looks correct but the switch path detours | [U25.1 STP path investigation](labs/U25-1-stp-troubleshooting.md) |
 | Unexpected root, error-disabled or root-inconsistent port | [U25.2 STP protections](labs/U25-2-stp-configuration.md#verification-and-troubleshooting-map) |
+| IPv4 works; remote IPv6 fails in both directions | [L10 IPv6 gateway and return path](labs/L10-dual-stack-gateway.md#diagnosis-the-return-path-matters) |
+| Links do not bundle, or a working Po is STP-blocked | [U26.1 EtherChannel diagnosis](labs/U26-1-etherchannel.md#troubleshooting-map) |
 
 ## References and reuse
 
@@ -65,4 +69,3 @@ Course exercises with configuration walkthroughs and troubleshooting notes. Open
 - [Attribution and course-material scope](ATTRIBUTION.md)
 
 These are isolated simulator exercises. They document study and practical troubleshooting; they do not assert employment experience or CCNA certification. No IOS binaries, full commercial course books, exam dumps or personal quiz records are included.
-

@@ -558,7 +558,70 @@
       "source_aliases": [
         "CCNA_Udemy/Study Notes/25 STP - Spanning Tree Protocol/25-2+STP+Configuration+Lab+Exercises+v1.1/25-2 STP Configuration v1.1.png"
       ]
+    },
+    {
+      "path": "packet-tracer/U26-1-etherchannel.pkt",
+      "source": "CCNA_Udemy/Study Notes/26 EtherChannel/26-1 EtherChannel Configuration.pkt",
+      "kind": "course-associated saved Packet Tracer project",
+      "bytes": 80212,
+      "sha256": "f8cba11753f0b76f029767c3b676c67ef2bec99f78d4a3dcbbf358c7edf57231"
+    },
+    {
+      "path": "images/U26-1-layer2-reference.png",
+      "source": "CCNA_Udemy/Study Notes/26 EtherChannel/26-1 EtherChannel Configuration.PNG",
+      "kind": "course reference topology",
+      "bytes": 49952,
+      "sha256": "307b475cb22797103acd32b0f00f64f5433ccf856c0501489d12b0c8bb1e3e2c"
+    },
+    {
+      "path": "images/U26-1-layer3-reference.jpg",
+      "source": "CCNA_Udemy/Study Notes/26 EtherChannel/26-1 Layer 3 Etherchannel Configuration.JPG",
+      "kind": "course reference topology",
+      "bytes": 22566,
+      "sha256": "95a0713d3363d752e2ab8289e43d94bd20b3506fba14bc234f7c7aece097dc68"
+    },
+    {
+      "path": "packet-tracer/L10-baseline.pkt",
+      "source": "CCNA_2027/work/L10-final-verification-2026-11-15/L10-baseline.pkt",
+      "kind": "learner saved Packet Tracer project; completion-review snapshot",
+      "bytes": 55255,
+      "sha256": "9a67d280610650b3b5a15ecfa5c0c09bdcf0f9d33860a2d24dcddc195cff5930"
+    },
+    {
+      "path": "packet-tracer/L10-IPv6-gateway-fault.pkt",
+      "source": "CCNA_2027/work/L10-final-verification-2026-11-15/L10-IPv6-gateway-fault.pkt",
+      "kind": "learner saved Packet Tracer project; completion-review snapshot",
+      "bytes": 55233,
+      "sha256": "e47c8e1fc7281d5b8859cbfbd0c7d3d3af270cb3cfad594a030ff6b24474e81c"
+    },
+    {
+      "path": "packet-tracer/L10-recovered.pkt",
+      "source": "CCNA_2027/work/L10-final-verification-2026-11-15/L10-recovered.pkt",
+      "kind": "learner saved Packet Tracer project; completion-review snapshot",
+      "bytes": 55252,
+      "sha256": "314adfc0bef8b04669c3f044869fb313a095e1efbbbcd288c859fe0ee38f18d2"
+    },
+    {
+      "path": "images/L10-PC-B-wrong-ipv6-gateway.png",
+      "source": "CCNA_2027/evidence/L10/screenshots/2026-11-15/20-215743.png",
+      "kind": "learner device screenshot",
+      "bytes": 200028,
+      "sha256": "c8a81f9a3a1cc8eda802934a9f42bab15eadff76b3b4db6f83839a4583beb276"
+    },
+    {
+      "path": "images/L10-PC-B-ipv4-pass-ipv6-fail.png",
+      "source": "CCNA_2027/evidence/L10/screenshots/2026-11-15/22-220109.png",
+      "kind": "learner device screenshot",
+      "bytes": 382445,
+      "sha256": "20803abff0746569688ee1361c97f7944f1f75f9f276705d7b3acafff08663a2"
+    },
+    {
+      "path": "images/L10-PC-A-dual-stack-recovered.png",
+      "source": "CCNA_2027/evidence/L10/screenshots/2026-11-15/30-222415.png",
+      "kind": "learner device screenshot",
+      "bytes": 384901,
+      "sha256": "d03f2d78f86328ef933de190f05025f664d8f4792e6172be4d591c61ffd03201"
     }
   ],
-  "updated_on": "2026-11-13"
+  "updated_on": "2026-11-16"
 }

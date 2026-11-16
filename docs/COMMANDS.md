@@ -99,6 +99,24 @@ See [U23 DHCP](../labs/U23-dhcp.md) and [U24 HSRP](../labs/U24-hsrp.md) for cont
 
 See [U20 OSPF](../labs/U20-ospf.md), [U25.1 diagnosis](../labs/U25-1-stp-troubleshooting.md) and [U25.2 configuration](../labs/U25-2-stp-configuration.md) for the topology-specific examples.
 
+## EtherChannel and dual-stack checks
+
+| Command / context | Purpose | Pitfall |
+|---|---|---|
+| `channel-group <id> mode active` · member interfaces | Start LACP and associate members with a logical port channel | At least one LACP peer must be active; do not mix protocols |
+| `channel-group <id> mode desirable` · member interfaces | Start PAgP negotiation | Auto/auto does not start negotiation |
+| `channel-group <id> mode on` · member interfaces | Force a static bundle | Both ends must be deliberately compatible; there is no negotiation |
+| `interface Port-channel<id>` · global | Configure the logical bundle | Keep logical/member VLAN and Layer 2/3 settings consistent |
+| `show etherchannel summary` · EXEC | Check protocol, state and member flags | An up interface alone does not prove both members are bundled |
+| `show interfaces trunk` · EXEC | Inspect trunk state and VLAN handling | STP can block a valid alternate Layer 2 bundle |
+| `no switchport` · interface | Select Layer 3 operation for a routed bundle | Put its IP on the logical port channel, not the physical members |
+| `ip routing` · global on the Layer 3 switches | Enable IPv4 forwarding between routed links | OSPF configuration does not replace this forwarding prerequisite |
+| `ipv6 unicast-routing` · global | Enable IPv6 routing between router interfaces | Working IPv4 does not establish working IPv6 |
+| `ipv6 address fe80::10 link-local` · router interface | Set the client's on-link IPv6 router identity | Link-local scope is per link; it is not a remote routed destination |
+| `show ipv6 interface brief`, `show ipv6 route`, `show ipv6 neighbors` · EXEC | Inspect IPv6 addresses, routes and neighbor mappings separately | Neighbor Discovery is distinct from IPv4 ARP |
+
+See [U26.1 EtherChannel](../labs/U26-1-etherchannel.md) and [L10 dual-stack gateway](../labs/L10-dual-stack-gateway.md) for configuration, fault scope and validation.
+
 ## Three distinctions to remember
 
 1. Route lookup chooses the most specific matching prefix first. AD compares eligible sources for the same prefix; each protocol uses its own metric.
@@ -106,4 +124,3 @@ See [U20 OSPF](../labs/U20-ospf.md), [U25.1 diagnosis](../labs/U25-1-stp-trouble
 3. DNS resolves names to addresses. ARP resolves on-link IPv4/next-hop MAC mappings. NAT translates network addresses. They are different functions.
 
 See [official references](../ATTRIBUTION.md#technical-references) and the individual case studies for actual evidence and limits.
-
