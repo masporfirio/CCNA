@@ -621,7 +621,196 @@
       "kind": "learner device screenshot",
       "bytes": 384901,
       "sha256": "d03f2d78f86328ef933de190f05025f664d8f4792e6172be4d591c61ffd03201"
+    },
+    {
+      "path": "images/L07-topology.png",
+      "source": "CCNA_2027/evidence/L07/2026-11-07-baseline/08-194150.png",
+      "kind": "learner device screenshot",
+      "bytes": 79062,
+      "sha256": "abc9d1e22af5dda8ded521ff173c073186bbaaeaf32372095c90a03b3e45eb34"
+    },
+    {
+      "path": "images/L07-router-routes-save.png",
+      "source": "CCNA_2027/evidence/L07/2026-11-07-baseline/09-194955-R7.png",
+      "kind": "learner device screenshot",
+      "bytes": 406322,
+      "sha256": "c7e0b3360ed9cb1ad44a1cb52e4cc421ebbc5a89ed4de83de4c6a80bfa73d654"
+    },
+    {
+      "path": "images/L07-PC-A-wrong-gateway.png",
+      "source": "CCNA_2027/evidence/L07/2026-11-07-fault-recovery/01-195443.png",
+      "kind": "learner device screenshot",
+      "bytes": 212875,
+      "sha256": "6d4a3cbb2c3ff5d6b3467a497d12b40661f716221865207c17e7e9f71715f1a6"
+    },
+    {
+      "path": "images/L07-local-pass-remote-fail.png",
+      "source": "CCNA_2027/evidence/L07/2026-11-07-fault-recovery/02-195635.png",
+      "kind": "learner device screenshot",
+      "bytes": 422879,
+      "sha256": "01cee5ae88f3084312330c165dc9cc0b30b524b731ecda95c779fa1df64f6a62"
+    },
+    {
+      "path": "images/L07-recovery-pings.png",
+      "source": "CCNA_2027/evidence/L07/2026-11-07-fault-recovery/04-195836.png",
+      "kind": "learner device screenshot",
+      "bytes": 499616,
+      "sha256": "f07bb5ac2aaf1bb9f545a4ef98c86ceda7b7f5753362ea6253149d0cad970720"
+    },
+    {
+      "path": "images/L07-recovery-http.png",
+      "source": "CCNA_2027/evidence/L07/2026-11-07-fault-recovery/05-195857.png",
+      "kind": "learner device screenshot",
+      "bytes": 174808,
+      "sha256": "6bafa553176a3871531d664d6c056f31a6e24ea14c73d86919ef37ce5c683271"
+    },
+    {
+      "path": "images/L08-PC-B-baseline-settings.png",
+      "source": "CCNA_2027/evidence/L08/2026-11-09-215627.png",
+      "kind": "learner device screenshot",
+      "bytes": 212218,
+      "sha256": "01067c1441141edd2099fb464004cf521dc8052df82b0e964cc54c7878a1e320"
+    },
+    {
+      "path": "images/L08-SRV8-baseline-settings.png",
+      "source": "CCNA_2027/evidence/L08/2026-11-09-215650.png",
+      "kind": "learner device screenshot",
+      "bytes": 168332,
+      "sha256": "60d3c1e7afa74c31adfc42a9af257a6cb88caf6192414d304399461977f92ca9"
+    },
+    {
+      "path": "images/L08-SRV8-baseline-pings.png",
+      "source": "CCNA_2027/evidence/L08/2026-11-09-215719.png",
+      "kind": "learner device screenshot",
+      "bytes": 310286,
+      "sha256": "ff02016191a7ab060b003d92803061f8fb70f6a3870bbc79604e45b95f38e9b8"
+    },
+    {
+      "path": "images/L09-router-interface-MAC.png",
+      "source": "CCNA_2027/evidence/L09/2026-11-14-200649-R9-Gi01-MAC.png",
+      "kind": "learner device screenshot",
+      "bytes": 466626,
+      "sha256": "15873439da3f53600e92bbfb9a26b38796eaf55c0609eec0691b37754fd263e7"
+    },
+    {
+      "path": "images/L09-observed-EUI-address.png",
+      "source": "CCNA_2027/evidence/L09/2026-11-11-212713-R9-Gi01-EUI.png",
+      "kind": "learner device screenshot",
+      "bytes": 476314,
+      "sha256": "8788ed387e8137b4cd66b854b207672816c7d82218a93f0a2beecdc333046be9"
+    },
+    {
+      "path": "images/L09-PC-B-wrong-prefix.png",
+      "source": "CCNA_2027/evidence/L09/2026-11-14-201856-PC-B-fault-settings.png",
+      "kind": "learner device screenshot",
+      "bytes": 171955,
+      "sha256": "34e93ddd38782fd302141d4fac0137d9cb6090ca061ebbc46877f4cec9877a7d"
+    },
+    {
+      "path": "images/L09-local-pass-remote-prefix-fail.png",
+      "source": "CCNA_2027/evidence/L09/2026-11-14-202145-PC-A-fault-pings.png",
+      "kind": "learner device screenshot",
+      "bytes": 470353,
+      "sha256": "7ac2f87d001885a8f8c93af085a6900e0af0273c3b04cd16bd59a8f8aa12aaca"
+    },
+    {
+      "path": "images/L09-PC-A-recovery-pings.png",
+      "source": "CCNA_2027/evidence/L09/2026-11-14-202611-PC-A-recovery-pings.png",
+      "kind": "learner device screenshot",
+      "bytes": 309831,
+      "sha256": "96f22125968a96a3d4ac90e60efae340624bdf354183de31b144e2165581c1a8"
+    },
+    {
+      "path": "images/L09-PC-B-recovery-pings.png",
+      "source": "CCNA_2027/evidence/L09/2026-11-14-202649-PC-B-recovery-pings.png",
+      "kind": "learner device screenshot",
+      "bytes": 299395,
+      "sha256": "d6827d27411d571e50d434bbfaed113df865c012a16c8bce0243640425319554"
+    },
+    {
+      "path": "images/L09-recovered-IPv6-routes.png",
+      "source": "CCNA_2027/evidence/L09/2026-11-14-203151-R9-IPv6-routes.png",
+      "kind": "learner device screenshot",
+      "bytes": 248546,
+      "sha256": "1c850d4f4882c772b4fbca32ca5f97a7703d177dbfbc80f2ece4d0eebd75665a"
+    },
+    {
+      "path": "packet-tracer/L07-baseline.pkt",
+      "source": "CCNA_2027/evidence/L07/L07-baseline.pkt",
+      "kind": "learner saved Packet Tracer project; archived for publication without rerun",
+      "bytes": 66080,
+      "sha256": "cf9af9ae7e39f4056495bced782774984b8ec730e0bcf2f53130ae9b8803ac9f",
+      "completion_review_sha256": "cf9af9ae7e39f4056495bced782774984b8ec730e0bcf2f53130ae9b8803ac9f",
+      "matches_completion_review_bytes": true
+    },
+    {
+      "path": "packet-tracer/L07-fault.pkt",
+      "source": "CCNA_2027/evidence/L07/L07-fault.pkt",
+      "kind": "learner saved Packet Tracer project; archived for publication without rerun",
+      "bytes": 66141,
+      "sha256": "d9ba7590a6d494386c984c9b6090f6c1ed02780ded5d7d7f41bfa23ed21f5e27",
+      "completion_review_sha256": "d9ba7590a6d494386c984c9b6090f6c1ed02780ded5d7d7f41bfa23ed21f5e27",
+      "matches_completion_review_bytes": true
+    },
+    {
+      "path": "packet-tracer/L07-recovered.pkt",
+      "source": "CCNA_2027/evidence/L07/L07-recovered.pkt",
+      "kind": "learner saved Packet Tracer project; archived for publication without rerun",
+      "bytes": 66126,
+      "sha256": "a472dbea8e6e736a820912907ee2f4648b0000ce4b37091460c97e4d9c1f0040",
+      "completion_review_sha256": "8afdacb58a5c2c5f8c273aa1809837fdffdec82582accee2db36e53bbcf9efaa",
+      "matches_completion_review_bytes": false,
+      "note": "Available publication-time file differs from the original review fingerprint; internal saved state not independently inspected."
+    },
+    {
+      "path": "packet-tracer/L08-baseline.pkt",
+      "source": "CCNA_2027/evidence/L08/L08-baseline.pkt",
+      "kind": "learner saved Packet Tracer project; archived for publication without rerun",
+      "bytes": 65087,
+      "sha256": "c87c44455a729f8a0c2614bfc7b17358fead1d4ff2ba02d237cb43bc3e0d44e8"
+    },
+    {
+      "path": "packet-tracer/L08-fault.pkt",
+      "source": "CCNA_2027/evidence/L08/L08-fault.pkt",
+      "kind": "learner saved Packet Tracer project; archived for publication without rerun",
+      "bytes": 66126,
+      "sha256": "9605293546073b96ba75a044e58a0d2f1d85a314fa4b45ee1daea45ee2040041"
+    },
+    {
+      "path": "packet-tracer/L08-recovered.pkt",
+      "source": "CCNA_2027/evidence/L08/L08-recovered.pkt",
+      "kind": "learner saved Packet Tracer project; archived for publication without rerun",
+      "bytes": 66319,
+      "sha256": "222b14975a95b49bcb8d22b57ade43365b57ad2219041f9487dab74a91d21a61"
+    },
+    {
+      "path": "packet-tracer/L09-baseline.pkt",
+      "source": "CCNA_2027/evidence/L09/L09-baseline.pkt",
+      "kind": "learner saved Packet Tracer project; archived for publication without rerun",
+      "bytes": 55750,
+      "sha256": "f22ac7f195e1a9ed062ae3089a484f8bea46b756d63b40e3c9f75194df702448",
+      "completion_review_sha256": "f22ac7f195e1a9ed062ae3089a484f8bea46b756d63b40e3c9f75194df702448",
+      "matches_completion_review_bytes": true
+    },
+    {
+      "path": "packet-tracer/L09-prefix-fault.pkt",
+      "source": "CCNA_2027/evidence/L09/L09-prefix-fault.pkt",
+      "kind": "learner saved Packet Tracer project; archived for publication without rerun",
+      "bytes": 56041,
+      "sha256": "80b2507e827acfac146ec81d8bd34415c9a09c01cb5b7361b25ab1b529a84e41",
+      "completion_review_sha256": "80b2507e827acfac146ec81d8bd34415c9a09c01cb5b7361b25ab1b529a84e41",
+      "matches_completion_review_bytes": true
+    },
+    {
+      "path": "packet-tracer/L09-recovered.pkt",
+      "source": "CCNA_2027/evidence/L09/L09-recovered.pkt",
+      "kind": "learner saved Packet Tracer project; archived for publication without rerun",
+      "bytes": 56439,
+      "sha256": "2cbac31bc822f7de2a8f5c445caabc7d3019bc9b3a523406f36d77fdc362c2b1",
+      "completion_review_sha256": "af718c3fe9b71129b426a60579de94b0e5a14c58237222f269fdef43e40b7743",
+      "matches_completion_review_bytes": false,
+      "note": "Available publication-time file differs from the original review fingerprint; internal saved state not independently inspected."
     }
   ],
-  "updated_on": "2026-11-16"
+  "updated_on": "2026-11-17"
 }

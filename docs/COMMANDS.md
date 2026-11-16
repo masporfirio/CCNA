@@ -117,6 +117,19 @@ See [U20 OSPF](../labs/U20-ospf.md), [U25.1 diagnosis](../labs/U25-1-stp-trouble
 
 See [U26.1 EtherChannel](../labs/U26-1-etherchannel.md) and [L10 dual-stack gateway](../labs/L10-dual-stack-gateway.md) for configuration, fault scope and validation.
 
+## IPv4 subnet plans and observed IPv6 identifiers
+
+| Check / example | Purpose | Pitfall |
+|---|---|---|
+| `ip address 10.88.4.1 255.255.255.192` · router interface | Apply the office /26 from the VLSM plan | Check subnet alignment, usable capacity and overlap before assigning hosts |
+| `show ip route` · EXEC | Compare the applied connected prefixes against the plan | An address reservation for a future LAN does not create a connected route |
+| PC/server default-gateway field | Select the router used for off-subnet traffic | An unused usable host address is not automatically a valid gateway |
+| `show interfaces GigabitEthernet0/1` · EXEC | Read the actual MAC/BIA before a theoretical EUI-64 calculation | Changing the MAC is unnecessary for this observation |
+| `ipv6 address 2001:db8:9:20::/64 eui-64` · router interface | Configure a prefix with an IID chosen by IOS | A manual link-local IID can be reused; compare the actual address in `show ipv6 interface` |
+| `show ipv6 route` · EXEC | Check the IPv6 connected and local routes | `show ip route` cannot validate the IPv6 table |
+
+See [L07 IPv4 subnets](../labs/L07-ipv4-subnets.md), [L08 VLSM](../labs/L08-vlsm-return-gateway.md) and [L09 IPv6 prefixes](../labs/L09-ipv6-prefixes.md) for addressing, observed results and rollback.
+
 ## Three distinctions to remember
 
 1. Route lookup chooses the most specific matching prefix first. AD compares eligible sources for the same prefix; each protocol uses its own metric.

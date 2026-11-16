@@ -10,6 +10,9 @@
 | [L04 · DNS / TCP / HTTP](labs/L04-dns-http.md) | HTTP service disabled while ping still works | UDP/53, TCP SYN-ACK, application recovery |
 | [L05 · Client gateway](labs/L05-client-gateway.md) | Wrong local next hop | Local versus remote tests, IP/HTTP recovery |
 | [L06 · Layered troubleshooting](labs/L06-layered-troubleshooting.md) | Cable, server return gateway and client DNS | Control tests, unknown-unicast copies, separate repairs |
+| [L07 · IPv4 subnets](labs/L07-ipv4-subnets.md) | Wrong client gateway within a valid subnet | Network boundaries, local controls, remote ping and HTTP recovery |
+| [L08 · VLSM and return path](labs/L08-vlsm-return-gateway.md) | Wrong server gateway after VLSM planning | Capacity, aligned nonoverlapping blocks and bidirectional validation |
+| [L09 · IPv6 prefixes and IIDs](labs/L09-ipv6-prefixes.md) | PC-B moved into an unconnected /64 | Actual versus theoretical EUI-64, IPv6 route family and prefix restoration |
 | [L10 · Dual-stack gateway](labs/L10-dual-stack-gateway.md) | IPv4 works while remote IPv6 fails | Client IPv6 next hop, return path and both-family recovery |
 
 ## Udemy course labs
@@ -48,6 +51,10 @@ Course exercises with configuration walkthroughs and troubleshooting notes. Open
 | Local IP works; remote IP fails | [L05 client gateway](labs/L05-client-gateway.md) |
 | Server local ping works; remote replies fail | [L06 return gateway](labs/L06-layered-troubleshooting.md#fault-2--wrong-server-return-gateway) |
 | IP HTTP works; hostname unresolved | [L06 DNS](labs/L06-layered-troubleshooting.md#fault-3--wrong-client-dns-server) |
+| Local router responds despite a wrong client gateway | [L07 local versus off-subnet delivery](labs/L07-ipv4-subnets.md#fault-a-usable-address-is-not-necessarily-a-gateway) |
+| VLSM addresses fit, but server replies cannot reach the office | [L08 server return path](labs/L08-vlsm-return-gateway.md#fault-change-only-the-servers-gateway) |
+| IPv6 local control works, but a changed client prefix is unreachable | [L09 prefix fault](labs/L09-ipv6-prefixes.md#fault-move-pc-b-into-an-unconnected-prefix) |
+| Actual EUI-64-configured address differs from the MAC calculation | [L09 IOS IID behavior](labs/L09-ipv6-prefixes.md#mac-derived-eui-64-versus-the-actual-ios-address) |
 | DNS complaint has several underlying causes | [U13 methodology](labs/U13-troubleshooting-method.md) |
 | Trace reaches R3; PC3 subnet route missing | [U18 static-route case](labs/U18-connectivity-troubleshooting.md) |
 | RIP route changes after EIGRP is introduced | [U19.1 route selection](labs/U19-1-igp.md) |

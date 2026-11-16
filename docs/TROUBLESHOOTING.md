@@ -19,6 +19,9 @@
 | Local gateway IP responds, remote IP fails | Client gateway, destination route, server return gateway | Wrong next hop or missing route |
 | Numeric IP and HTTP work, name fails | Resolver setting, service/record and fresh-name request | DNS-specific problem |
 | Ping works, fresh direct-IP HTTP fails | Server HTTP service and transport/application behavior | Service failure |
+| Local router responds but remote traffic fails after a gateway change | Compare on-subnet control, configured next hop and remote return path | Wrong client or server gateway; see L07/L08 |
+| IPv6 fails after changing one client's global prefix | Check actual /64, both address families' commands and connected destination prefixes | Client address outside the router's configured destination network; see L09 |
+| EUI-64-configured global IID differs from the MAC calculation | Compare current MAC, manually configured link-local IID and actual global address | IOS IID reuse, rather than automatically a faulty calculation; see L09 |
 | `Invalid input` | IOS mode, spelling and `?` | Command entered in wrong context or unsupported syntax |
 
 These are hypotheses, not automatic diagnoses. A cache hit, old browser page, cropped source label or route table alone can be insufficient evidence.
