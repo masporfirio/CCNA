@@ -810,6 +810,20 @@
       "completion_review_sha256": "af718c3fe9b71129b426a60579de94b0e5a14c58237222f269fdef43e40b7743",
       "matches_completion_review_bytes": false,
       "note": "Available publication-time file differs from the original review fingerprint; internal saved state not independently inspected."
+    },
+    {
+      "path": "packet-tracer/U27-1-port-security.pkt",
+      "source": "CCNA_Udemy/Study Notes/27 Switch Security/27-1+Port+Security+Configuration+Lab+Exercises+v2/27-1 Port Security Configuration.pkt",
+      "kind": "supplied course Packet Tracer project",
+      "bytes": 53762,
+      "sha256": "b3801c6fbf414452b81c58f07ad7e23601534096bb56a601a02b718f1b027e57"
+    },
+    {
+      "path": "images/U27-1-port-security-reference.png",
+      "source": "CCNA_Udemy/Study Notes/27 Switch Security/27-1+Port+Security+Configuration+Lab+Exercises+v2/27-1 Port Security Configuration.PNG",
+      "kind": "course reference topology",
+      "bytes": 12532,
+      "sha256": "dbe803468d8923e4a545509c5ff4c0df702d94fcc0a9e07db584313f634d6622"
     }
   ],
   "updated_on": "2026-11-17"

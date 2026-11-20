@@ -38,6 +38,7 @@ Course exercises with configuration walkthroughs and troubleshooting notes. Open
 | [25.1](labs/U25-1-stp-troubleshooting.md) | STP troubleshooting | Trace the Layer 2 path and explain its relationship to HSRP |
 | [25.2](labs/U25-2-stp-configuration.md) | STP configuration | Place the root bridge and apply Rapid PVST+, PortFast and guards |
 | [26.1](labs/U26-1-etherchannel.md) | EtherChannel: LACP, PAgP and Layer 3 | Bundle parallel links; verify trunks, member flags and OSPF |
+| [27.1](labs/U27-1-port-security.md) | Switch port security | Disable unused ports; compare configured and dynamically learned secure MAC addresses |
 
 ## Troubleshooting quick index
 
@@ -66,6 +67,7 @@ Course exercises with configuration walkthroughs and troubleshooting notes. Open
 | Unexpected root, error-disabled or root-inconsistent port | [U25.2 STP protections](labs/U25-2-stp-configuration.md#verification-and-troubleshooting-map) |
 | IPv4 works; remote IPv6 fails in both directions | [L10 IPv6 gateway and return path](labs/L10-dual-stack-gateway.md#diagnosis-the-return-path-matters) |
 | Links do not bundle, or a working Po is STP-blocked | [U26.1 EtherChannel diagnosis](labs/U26-1-etherchannel.md#troubleshooting-map) |
+| Duplicate secure MAC, missing learned address or Secure-shutdown | [U27.1 Port Security diagnosis](labs/U27-1-port-security.md#troubleshooting-map) |
 
 ## References and reuse
 
